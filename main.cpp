@@ -53,7 +53,7 @@ void inputMatrix(int** matrix, int size) {
 void outputMatrix(int** matrix, int size) {
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
-			cout << setw(9) << right << matrix[i][j];
+			cout << setw(9) << right << matrix[i][j] << "|" << endl;
 		}
 		cout << endl;
 	}
